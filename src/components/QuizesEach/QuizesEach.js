@@ -1,11 +1,10 @@
 import React from "react";
-import Home from "../Home/Home";
 import Modal from "../Modal/Modal";
 import OptionCart from "../OptionCart/OptionCart";
 
 const QuizesEach = ({ qui, index }) => {
   const { id, question, options, correctAnswer } = qui;
-  //   console.log(qui);
+    // console.log(correctAnswer);
 
   const handleForShowAnd = () => {
     alert("show this");
