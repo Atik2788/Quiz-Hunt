@@ -1,7 +1,8 @@
 import React from "react";
+import './Chart.css'
 
 const About = () => {
-  return <div>This is about</div>;
+  return <div className="chart">This is about</div>;
 };
 
 export default About;
