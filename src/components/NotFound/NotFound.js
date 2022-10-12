@@ -6,7 +6,7 @@ const NotFound = () => {
     return (
         <div className='not-found '>
 
-        <div className='pt-10 lg:pt-[500px]'>
+        <div className='pt-[50px]'>
         <Link to='/' className="btn btn-outline btn-primary bg-white text-white border-black ">Back To Home</Link>
         </div>
 

@@ -4,11 +4,6 @@ import OptionCart from "../OptionCart/OptionCart";
 
 const QuizesEach = ({ qui, index }) => {
   const { id, question, options, correctAnswer } = qui;
-    // console.log(correctAnswer);
-
-  const handleForShowAnd = () => {
-    alert("show this");
-  };
 
   return (
     <div className="bg-white w-3/5 mx-auto rounded-2xl">
@@ -18,7 +13,7 @@ const QuizesEach = ({ qui, index }) => {
           {question.slice(3, -4)}
         </h3>
 
-        <div className="text-left mx-auto grid grid-cols-2 mt-5 gap-10 ">
+        <div className="text-center  mx-auto lg:grid grid-cols-2 mt-5 gap-10">
           {options.map((opti, idx) => (
             <OptionCart
               key={idx}

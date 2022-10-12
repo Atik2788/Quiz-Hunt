@@ -10,8 +10,8 @@ const Quizes = () => {
 
 
     return (
-        <div className='bg-pink-100 pb-10'>
-            <h2 className='pt-14 text-3xl font-bold'>Quiz: {quizName}</h2>
+        <div className='pb-10 bg-red-50'>
+            <h2 className='p-14 text-3xl font-bold'>Quiz: {quizName}</h2>
         
         <div className='gap-5'>
         {
