@@ -15,9 +15,7 @@ const HeaderImg = () => {
             <h1 className="text-5xl font-bold">Test Yourself</h1>
             <p className="py-6">
             Test yourself and prepare for your future. There is no time to
-            learn. But if you waste time you cant take it backProvident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.              
+            learn. But if you waste time you cant take it.         
             </p>
             <Link to = '/blog'><button className="btn btn-outline btn-primary"> Learn More.. </button></Link>
           </div>
