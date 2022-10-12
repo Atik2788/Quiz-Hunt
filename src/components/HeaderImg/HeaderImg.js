@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Blog from "../Blog/Blog";
 
 const HeaderImg = () => {
   return (
@@ -6,7 +8,7 @@ const HeaderImg = () => {
       <div className="hero py-20 bg-white w-10/12 mx-auto rounded-lg">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="https://img.freepik.com/free-vector/flat-young-businessman-sitting-huge-red-question-mark_126523-2881.jpg?w=826&t=st=1665575028~exp=1665575628~hmac=29d753eead5a7dc0745a8c5eff331b0260b29d1f6331e8ec218f95485282578b"
+            src="https://i.pinimg.com/originals/4d/95/59/4d95590502072858b77182e41a1a6259.gif"
             className="md:max-w-sm  rounded-lg shadow-2xl" alt=""
           />
           <div className="lg:text-left text-center mt-10">
@@ -15,9 +17,11 @@ const HeaderImg = () => {
             Test yourself and prepare for your future. There is no time to
             learn. But if you waste time you cant take it backProvident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              et a id nisi.              
             </p>
+            <Link to = '/blog'><button className="btn btn-outline btn-primary"> Learn More.. </button></Link>
           </div>
+          
         </div>
       </div>
     </div>
