@@ -6,7 +6,7 @@ const QuizesEach = ({ qui, index }) => {
   const { id, question, options, correctAnswer } = qui;
 
   return (
-    <div className="bg-white w-3/5 mx-auto rounded-2xl">
+    <div className="bg-white lg:w-3/5 md:w-3/5 w-10/12 mx-auto rounded-2xl">
       <div className="w-full mx-auto mt-14 tex-left p-5">
         <h3 className="text-left text-xl font-bold">
           <span className="mr-3">Question-{index + 1}:</span>

@@ -19,7 +19,7 @@ const OptionCart = ({ opti, correctAnswer }) => {
   return (
     <div className="mt-5 lg:mt-0">
       <button onClick={handelForCorrect} className="active">
-        <div className="flex items-center text-left rounded-lg  border-2 w-[180px] h-[150px] md:w-[290px] md:h-[80px] lg:w-[280px] lg:h-20 p-3 border-indigo-600">
+        <div className="flex items-center text-left rounded-lg  border-2 w-[280px] h-[80px] md:w-[350px] md:h-[75px] lg:w-[280px] lg:h-20 p-3 border-indigo-600">
           {opti}
         </div>
       </button>
