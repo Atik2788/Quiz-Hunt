@@ -10,8 +10,8 @@ const Chart = () => {
 
   return <div className="bg-red-50">
 
-      <div className="pt-[150px] lg:w-2/4 lg:mx-auto pb-[100px]">
-        <LineChart width={500} height= {400} data={quizData}>
+      <div className="pt-[150px] lg:w-2/4 w-[200px] lg:mx-auto pb-[100px] ">
+        <LineChart width={360} height= {400} data={quizData}>
             <Line type="monotone" dataKey="total" stroke="#82ca9d" />
             <XAxis dataKey="name" />
             <YAxis />
