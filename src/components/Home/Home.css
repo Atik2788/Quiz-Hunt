@@ -1,0 +1,10 @@
+.animation-text {
+  position: relative;
+}
+
+.animation-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
