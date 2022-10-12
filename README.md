@@ -1,5 +1,4 @@
-*welcome to
-### Quiz Hunt
+# Quiz Hunt
 
 # Getting Started with Create React App
 
