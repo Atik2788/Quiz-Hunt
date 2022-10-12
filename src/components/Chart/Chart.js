@@ -1,9 +1,7 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
-import ChartDetails from "../ChartDetails/ChartDetails";
 import './Chart.css';
-import {ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart,} from 'recharts';
-
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
 const Chart = () => {
@@ -15,14 +13,14 @@ const Chart = () => {
   return <div className="chart">
 
       <div>
-      {
-      quizData.map(quiz => console.log(quiz)
-      )}
+        <LineChart width={500} height= {400} data={quizData}>
+            <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip></Tooltip>
+          </LineChart>
       </div>
 
-      <div>
-        {/* <h2>{quiz.name}</h2> */}
-      </div>
   </div>;
 };
 

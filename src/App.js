@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Blog from './components/Blog/Blog';
 import Quizes from './components/Quizes/Quizes';
 import Chart from './components/Chart/Chart';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
 
@@ -34,6 +35,10 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '*',
+          element: <NotFound></NotFound>
         }
 
       ]
