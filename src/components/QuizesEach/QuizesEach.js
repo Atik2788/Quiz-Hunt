@@ -11,8 +11,8 @@ const QuizesEach = ({ qui, index }) => {
   };
 
   return (
-    <div className="bg-gray-200 w-3/5 mx-auto rounded-2xl">
-      <div className="w-full mx-auto my-14 tex-left p-5">
+    <div className="bg-white w-3/5 mx-auto rounded-2xl">
+      <div className="w-full mx-auto mt-14 tex-left p-5">
         <h3 className="text-left text-xl font-bold">
           <span className="mr-3">Question-{index + 1}:</span>
           {question.slice(3, -4)}

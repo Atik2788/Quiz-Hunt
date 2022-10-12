@@ -5,7 +5,7 @@ const Quiz = (quiz) => {
   const { id, name, logo, total } = quiz.quiz;
   // console.log(quiz)
   // console.log(id)
-  return <div className='bg-white rounded-lg mt-10'>
+  return <div className='rounded-lg mt-10'>
             <div className='p-2'>
             <img className='bg-orange-300 rounded-lg' src={logo} alt="" />
 
